@@ -1,6 +1,6 @@
 # ScribbleDose
 
-This is the official repository for **ScribbleDose** ([ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2511.06897)). The code will be further organized and refined.
+This is the official repository for **ScribbleDose** (ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy). The code will be further organized and refined.
 
 ### Data Preprocessing
 
