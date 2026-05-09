@@ -1,0 +1,39 @@
+loader_params: 
+
+    'train_bs': 2
+    'val_bs': 3
+    'csv_root': 'meta_files/meta_data.csv'
+    'scale_dose_dict': 'meta_files/PTV_DICT.json'
+    'pat_obj_dict': 'meta_files/Pat_Obj_DICT.json'
+    'num_workers': 4
+
+    'down_HU': -1000
+    'up_HU': 1000
+    'denom_norm_HU': 500
+
+    'in_size': [96, 128, 144]
+    'out_size': [96, 128, 144]
+
+    'norm_oar': True
+    'CatStructures': False
+
+    'dose_div_factor': 10 
+    'use_scribble': True
+    'scribble_mode': 'both'    
+    
+model_params:
+    num_input_channels: 8
+    out_channels: 1
+    
+lr: 0.0001
+
+num_epochs: 400
+
+act_sig: True
+
+scale_out: 7.5
+
+scale_loss: 4
+
+pretrain_ckpt: 
+save_model_root: ./result_model/AAPM/lightning_update_dosesp

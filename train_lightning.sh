@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2,3 python train_lightning.py "./config_files/config_train" --model dosesp 

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python inference.py "./config_files/config_infer" --model dosesp 
