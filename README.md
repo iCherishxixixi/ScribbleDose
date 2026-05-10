@@ -71,6 +71,7 @@ bash infer_testing.sh
 
 # Evaluation
 python evaluate.py
+```
 
 ### Acknowledgments
 
