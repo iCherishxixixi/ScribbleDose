@@ -74,9 +74,9 @@ python evaluate.py
 ```
 ### License
 
-The source code in this repository is released under the MIT License.
+The source code in this repository is released under the MIT License. See [`LICENSE`](LICENSE) for details.
 
-The processed ScribbleDose annotations released on Zenodo are distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). Users should also follow the data usage terms of the original GDP-HMM AAPM dataset.
+The processed ScribbleDose annotations released on [Zenodo](https://zenodo.org/records/20110954) are distributed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). Users should also follow the data usage terms of the original GDP-HMM AAPM dataset.
 
 ### Acknowledgments
 
