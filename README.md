@@ -1,6 +1,6 @@
 # ScribbleDose
 
-This is the official repository for **ScribbleDose** ([ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2511.06897)). The code will be further organized and refined.
+This is the official repository for **ScribbleDose** ([ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2511.06897)).
 
 ### Data Preprocessing
 
@@ -58,13 +58,19 @@ Before training or testing, please specify the `npz_path` column in the correspo
 
 You can set up the environment according to the configuration provided in [GDP-HMM_AAPMChallenge](https://github.com/RiqiangGao/GDP-HMM_AAPMChallenge).
 
-### Training, Testing, and Evaluation
+### Training, Inference, and Evaluation
 
-We provide separate scripts for model training, testing, and evaluation:
+After preparing the merged `.npz` files and updating the metadata files, use the following commands for training, inference, and evaluation:
 
-- Training: [`train_lightning.sh`](train_lightning.sh)
-- Testing: [`infer_testing.sh`](infer_testing.sh)
-- Evaluation: [`evaluate.py`](evaluate.py)
+```bash
+# Training
+bash train_lightning.sh
+
+# Inference
+bash infer_testing.sh
+
+# Evaluation
+python evaluate.py
 
 ### Acknowledgments
 
