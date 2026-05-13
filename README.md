@@ -89,9 +89,10 @@ Since ScribbleDose is built upon the GDP-HMM AAPM radiotherapy dataset, please a
 
 ```bibtex
 @article{gao2025automating,
-  title={Automating RT Planning at Scale: High Quality Data For AI Training},
-  author={Gao, Riqiang and Diallo, Mamadou and Liu, Han and Magliari, Anthony and Sackett, Jonathan and Verbakel, Wilko and Meyers, Sandra and Mcbeth, Rafe and Zarepisheh, Masoud and Arberet, Simon and others},
-  journal={arXiv preprint arXiv:2501.11803},
+  title={Automating high quality RT planning at scale},
+  author={Gao, Riqiang and Diallo, Mamadou and Liu, Han and Magliari, Anthony and Sackett, Jonathan and Verbakel, Wilko and Meyers, Sandra and Zarepisheh, Masoud and Mcbeth, Rafe and Arberet, Simon and others},
+  journal={arXiv e-prints},
+  pages={arXiv--2501},
   year={2025}
 }
 ```
