@@ -1,6 +1,6 @@
 # ScribbleDose
 
-This is the official repository for **ScribbleDose** ([ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2511.06897)).
+This is the official repository for **ScribbleDose** ([ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy](https://arxiv.org/abs/2605.11555)).
 
 ### Data Preprocessing
 
@@ -72,6 +72,30 @@ bash infer_testing.sh
 # Evaluation
 python evaluate.py
 ```
+
+## Citation
+
+If this repository, the ScribbleDose annotations, or our code is helpful for your research, please kindly cite our paper:
+
+```bibtex
+@article{zhang2026scribbledose,
+  title={ScribbleDose: Scribble-Guided Dose Prediction in Radiotherapy},
+  author={Zhang, Zhenxi and Zhuang, Yitao and Pu, Yao and Yu, Peixin and Li, Zirong and Xia, Yan and Li, Hui and Li, Bin and Zheng, Fuchen and Ren, Ge},
+  journal={arXiv preprint arXiv:2605.11555},
+  year={2026}
+}
+```
+Since ScribbleDose is built upon the GDP-HMM AAPM radiotherapy dataset, please also cite the original dataset paper when using ScribbleDose together with the original radiotherapy data:
+
+```bibtex
+@article{gao2025automating,
+  title={Automating RT Planning at Scale: High Quality Data For AI Training},
+  author={Gao, Riqiang and Diallo, Mamadou and Liu, Han and Magliari, Anthony and Sackett, Jonathan and Verbakel, Wilko and Meyers, Sandra and Mcbeth, Rafe and Zarepisheh, Masoud and Arberet, Simon and others},
+  journal={arXiv preprint arXiv:2501.11803},
+  year={2025}
+}
+```
+
 ### License
 
 The source code in this repository is released under the MIT License. See [`LICENSE`](LICENSE) for details.
